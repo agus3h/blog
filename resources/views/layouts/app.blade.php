@@ -28,7 +28,7 @@
                 <div class="container">
                     <!-- logo -->
                     <div class="nav-logo">
-                        <a href="{{route('utama')}}" class="logo"><img src="{{asset('public/frontend/img/logo.png')}}" alt=""></a>
+                        <a href="{{route('utama')}}" class="logo"><img src="{{asset('public/frontend/img/logos.png')}}" alt=""></a>
                     </div>
                     <!-- /logo -->
 
@@ -67,10 +67,10 @@
                 <div class="section-row">
                     <h3>Follow us</h3>
                     <ul class="nav-aside-social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/agus3h"><i class="fa fa-github"></i></a></li>
+                       <!--  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
                     </ul>
                 </div>
                 <!-- /social links -->
@@ -97,21 +97,20 @@
                 <div class="col-md-5">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="index.html" class="logo"><img src="{{asset('public/frontend/img/logo.png')}}" alt=""></a>
+                            <a href="{{route('utama')}}" class="logo"><img src="{{asset('public/frontend/img/logos.png')}}" alt=""></a>
                         </div>
                         <ul class="footer-nav">
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Advertisement</a></li>
                         </ul>
                         <div class="footer-copyright">
-                            <span>&copy;
-                                <!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. -->
+                            
+                                
                                 Copyright &copy;<script>
                                     document.write(new Date().getFullYear());
 
-                                </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                    aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                    target="_blank">Colorlib</a>
+                                </script> All rights reserved by <a href="https://github.com/agus3h"
+                                    target="_blank">agus3h</a>
                         </div>
                     </div>
                 </div>
@@ -146,10 +145,10 @@
                 </form>
             </div>
             <ul class="footer-social">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/agus3h"><i class="fa fa-github"></i></a></li>
+                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
             </ul>
         </div>
     </div>
